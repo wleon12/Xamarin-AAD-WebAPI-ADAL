@@ -11,7 +11,7 @@ namespace AuthenticationSample.iOS
             // you can specify it here.
             UIApplication.Main(args, null, "AppDelegate");
 
-            //testc 
+            //testc v
         }
     }
 }
