@@ -26,9 +26,6 @@ namespace AuthenticationSample.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Microsoft.IdentityModel.Clients.ActiveDirectory.Resource.Id.agentWebView = global::AuthenticationSample.Droid.Resource.Id.agentWebView;
-			global::Microsoft.IdentityModel.Clients.ActiveDirectory.Resource.Layout.WebAuthenticationBroker = global::AuthenticationSample.Droid.Resource.Layout.WebAuthenticationBroker;
-			global::Microsoft.IdentityModel.Clients.ActiveDirectory.Resource.String.ApplicationName = global::AuthenticationSample.Droid.Resource.String.ApplicationName;
 		}
 		
 		public partial class Attribute
@@ -87,9 +84,6 @@ namespace AuthenticationSample.Droid
 			// aapt resource value: 0x7f050002
 			public const int QueryApiButton = 2131034114;
 			
-			// aapt resource value: 0x7f050008
-			public const int agentWebView = 2131034120;
-			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -105,9 +99,6 @@ namespace AuthenticationSample.Droid
 			
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
-			
-			// aapt resource value: 0x7f030001
-			public const int WebAuthenticationBroker = 2130903041;
 			
 			static Layout()
 			{
